@@ -39,3 +39,18 @@ All you need to compile the project is already included int this repository. You
 - Execute *make* to build the iODBC GUI executable
 - Execute *make clean* to clean the project
 
+Screenshots
+------
+
+*Source Administration - DSN*
+
+![Source Administration - DSN](https://github.com/afxgroup/iODBCGui/blob/master/screens/panel1.png?raw=true)
+
+
+*Source Administration - ODBC Drivers*
+
+![Source Administration - ODBC Drivers](https://github.com/afxgroup/iODBCGui/blob/master/screens/panel2.png?raw=true)
+
+*Source Administration - About*
+
+![Source Administration - About](https://github.com/afxgroup/iODBCGui/blob/master/screens/panel3.png?raw=true)
