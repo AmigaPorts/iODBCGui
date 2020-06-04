@@ -1,0 +1,329 @@
+; *********************************************************
+; Catalog description file for iODBC
+; $VER: iODBC.cd 1.0 (02.08.2010) ©2010 Andrea Palmatè
+; *********************************************************
+;
+MSG_ERROR (1000//128)
+iODBC Error
+;
+MSG_OK (//64)
+Ok
+;
+MSG_SAVE (//64)
+Save
+;
+MSG_USE (//64)
+Use
+;
+MSG_CANCEL (//64)
+Cancel
+;
+MSG_ABORT (//64)
+Abort
+;
+MSG_ADD (//64)
+Add
+;
+MSG_REMOVE (//64)
+Remove
+;
+MSG_SORT (//64)
+Sort
+;
+MSG_YESNO (//64)
+Yes|No
+;
+MSG_YESNOCANCEL (//64)
+Yes|No|Cancel
+;
+MSG_ERROR_LOADING_ODBC (//64)
+Error while connecting to ODBC!
+;
+MSG_TAB_SYSTEM_DSN (//128)
+System DSN
+;
+MSG_TAB_ODBC_DRIVERS (//128)
+ODBC Drivers
+;
+MSG_TAB_ABOUT (//128)
+About
+;
+MSG_CI_SYSDSN_0 (//64)
+Name
+;
+MSG_CI_SYSDSN_1 (//64)
+Description
+;
+MSG_CI_SYSDSN_2 (//64)
+Driver
+;
+MSG_CI_SYSDRIVERS_0 (//64)
+Name
+;
+MSG_CI_SYSDRIVERS_1 (//64)
+File
+;
+MSG_CI_SYSDRIVERS_2 (//64)
+Version
+;
+MSG_CI_SYSDRIVERS_3 (//64)
+Size
+;
+MSG_CI_ABOUT_0 (//64)
+Name
+;
+MSG_CI_ABOUT_1 (//64)
+File
+;
+MSG_CI_ABOUT_2 (//64)
+Date
+;
+MSG_CI_ABOUT_3 (//64)
+Size
+;
+MSG_CI_ABOUT_4 (//64)
+Version
+;
+MSG_SYSTEM_DATA_SOURCES (//64)
+System Data Sources
+;
+MSG_BUTTON_ADD (//64)
+_Add
+;
+MSG_BUTTON_REMOVE (//64)
+_Remove
+;
+MSG_BUTTON_CONFIGURE (//64)
+_Configure
+;
+MSG_BUTTON_TEST (//64)
+_Test
+;
+MSG_SYSTEMDSN_LABEL (//256)
+An ODBC System data source stores information about how to connect to the indicated data provider. A System data source is visible to all users on this machines, including daemons.
+;
+MSG_ODBC_DRIVERS (//64)
+ODBC Drivers that are installed on your system
+;
+MSG_ODBCDRIVERS_LABEL (//256)
+An ODBC driver allows ODBC-enabled programs to get information from ODBC data sources. Check the documentation to know how to add a new driver to the system.
+;
+MSG_ODBC_COMPONENTS (//128)
+ODBC components installed on your system
+;
+MSG_ODBCCOMPONENTS_LABEL (//256)
+ODBC is a programming interface that enables applications to access data in database management systems that use Structured Query Language (SQL) as a data access standard.
+;
+MSG_WINDOW_TITLE (//64)
+iODBC Data Source Administrator
+;
+MSG_BUTTON_OK (//8)
+_Ok
+;
+MSG_BUTTON_CANCEL (//16)
+_Cancel
+;
+MSG_ERROR_LOADDRIVERS (//32)
+Cannot load ODBC drivers
+;
+MSG_REMOVE_DSN (//64)
+Are you sure you want to remove this DSN?
+;
+MSG_ERROR_REMOVE_DSN (//64)
+Error when removing the DSN
+;
+MSG_ERROR_NODRIVERS_INSTALLED (//64)
+No ODBC drivers installed!
+;
+MSG_LOGIN_TO_DSN (//32)
+Login to DSN %s
+;
+MSG_USERNAME (//32)
+Username :
+;
+MSG_PASSWORD (//32)
+Password :
+;
+MSG_BUTTON_FINISH (//16)
+_Finish
+;
+MSG_CONNECTION_OK (//128)
+The connection DSN was tested successfully\nand can be used at this time.
+;
+MSG_CI_KEYS_0 (//20)
+Keyword
+;
+MSG_CI_KEYS_1 (//20)
+Value
+;
+MSG_DSN_SETUP (//32)
+DSN Setup for %s
+;
+MSG_GENERIC_SETUP (//64)
+Generic ODBC Driver Setup
+;
+MSG_DATA_SOURCE_NAME (//64)
+Data Source Name (DSN) :
+;
+MSG_DESCRIPTION (//32)
+Description :
+;
+MSG_KEYWORD (//20)
+Keyword :
+;
+MSG_VALUE (//20)
+Value :
+;
+MSG_BUTTON_UPDATE (//16)
+_Update
+;
+MSG_WARN_PARAMETERS (//164)
+The Server and Database keywords are required for correct operations. You should define them in the DSN
+;
+MSG_WARN_OVERWRITE_DSN (//64)
+A DSN with this name already exisys. Do you want to overwrite this DSN?
+;
+MSG_ERROR_WRITE_DSN (//64)
+Error writing DSN to file!
+;
+MSG_ERROR_MISSING_NAME (//64)
+You must specify a name for the new DSN!
+;
+MSG_ERROR_KEY_PAIRS (//64)
+Please specify both a Key and a Value!
+;
+MSG_WARN_REMOVE_KEY (//128)
+Are you sure you want to remove the selected Key?
+;
+MSG_ERROR_CONFIGURE_DSN (//128)
+An error occured when trying to configure the DSN!
+;
+MSG_ERROR_UPDATE_DSN (//64)
+Error updating the DSN!
+;
+MSG_CHOOSE_DRIVER (//32)
+Choose an ODBC Driver
+;
+MSG_SELECT_DRIVER (//128)
+Select a driver for which you want to setup a data source
+;
+MSG_ERROR_OPENING_DSNWIN (//128)
+Cannot open the Add DSN window! Make sure all components are installed correctly!
+;
+MSG_CONNECTION_WIZARD (//32)
+Use the connection wizard
+;
+MSG_WIZARD_TITLE (//32)
+Connection Wizard
+;
+MSG_BUTTON_NEXT (//16)
+_Next
+;
+MSG_BUTTON_BACK (//16)
+_Back
+;
+MSG_WIZARD_STEP2_DESC (//256)
+A data source name (DSN) is a data structure that contains the information about a specific database that an Open Database Connectivity ( ODBC ) driver needs in order to connect to it
+;
+MSG_INSERT_DSN_NAME (//32)
+Insert the DSN Name
+;
+MSG_DSN_NAME_DESC (//128)
+The DSN Name is used by ODBC to access connection (f.e. MySQLConnection)
+;
+MSG_INSERT_DSN_DESC (//32)
+Insert the DSN Description
+;
+MSG_DSN_DESCRIPTION (//256)
+The DSN Description allows you to remember which connection is used in the DSN (f.e. Connection to MySQL Server)
+;
+MSG_WIZARD_WELCOME (//64)
+Welcome to Connection Wizard
+;
+MSG_WIZARD_STEP1_DESC (//1024)
+The Database Wizard allows you to specify the minimum requirements for a Database connection.\nYou should specify at least a Server Name (or its IP Address) and a Database Name to produce a valid DSN connection.Note that not all ODBC Drivers use the same parameters. For example SQLite connections doesn't needs a Server parameter but only a Database name that in this case will be a physical path (f.e. DH2:mydb.db)
+;
+MSG_SERVERNAME_DESC (//128)
+The Server name should be an IP Address (f.e. 192.168.0.254)
+;
+MSG_INSERT_SERVERNAME (//32)
+Insert the Server Name
+;
+MSG_DATABASE_DESC (//128)
+The Database name is the Database you want connect to (f.e. Northwind)
+;
+MSG_INSERT_DATABASE (//32)
+Insert the Database Name
+;
+MSG_HINT_ADD (//64)
+Add a new DSN connection
+;
+MSG_HINT_REMOVE (//64)
+Remove the selected DSN
+;
+MSG_HINT_CONFIGURE (//64)
+Configure the selected DSN
+;
+MSG_HINT_TEST (//64)
+Test the selected DSN
+;
+MSG_HINT_LBDRIVERS (//128)
+This window show the current installed ODBC drivers
+;
+MSG_HINT_CONNECTION_WIZARD (//256)
+Checking this check box, when you click on Finish button, the iODBC manager will start the Connection Wizard that will help you in the DSN creation.
+;
+MSG_HINT_WIZARD_SERVERNAME (//64)
+Insert the server you want to connect to
+;
+MSG_HINT_WIZARD_DATABASENAME (//80)
+Insert the Database name you want to use in your programs
+;
+MSG_HINT_WIZARD_DSNNAME (//128)
+Insert the name of DSN you want to create. This will be used by software to access the data.
+;
+MSG_HINT_WIZARD_DSNDESCRIPTION (//128)
+Insert the description of DSN you want to create. This will remember you for which connection the DSN is used.
+;
+MSG_HINT_AVAILABLEDSN (//128)
+This window show the current available DSN
+;
+MSG_HINT_AVAILABLEDRIVERS (//128)
+This window show the current available ODBC drivers in the system
+;
+MSG_HINT_AVAILABLECOMPONENTS (//128)
+This window show the current version of iODBC components
+;
+MSG_HINT_NEWDSN_DESC (//164)
+Insert the description of DSN you want to create. This will remember you for which connection the DSN is used.
+;
+MSG_HINT_NEWDSN_LISTVIEW (//128)
+This listview contains all ODBC driver parameters actually used by this DSN
+;
+MSG_HINT_NEWDSN_KEYWORD (//64)
+Insert the Parameter name (f.e. Database or Port)
+;
+MSG_HINT_NEWDSN_VALUE (//64)
+Insert the Parameter value
+;
+MSG_HINT_NEWDSN_ADD (//64)
+Insert the current Parameter name/value
+;
+MSG_HINT_NEWDSN_REMOVE (//64)
+Remove the selected parameter
+;
+MSG_HINT_NEWDSN_UPDATE (//64)
+Update the current Parameter name/value
+;
+MSG_HINT_NEWDSN_NAME (//164)
+Insert the name of DSN you want to create. This will be used by software to access the data.
+;
+MSG_ERROR_PARAMETER_ALREADY_EXISTS (//128)
+The specified parameter already exists in the DSN.
+;
+MSG_ERROR_INVALID_PARAMETER (//128)
+Invalid parameter. DSN, Description and Driver are not accepted has parameters.
+;
+MSG_CONNECTION_OK_WITH_INFO (//164)
+;The connection DSN was tested successfully\nbut the Driver has returned SQL_SUCCESS_WITH_INFO.
+;

@@ -1,0 +1,12 @@
+; project configuration (do not delete)
+
+(compiler
+
+    (alias "generic")
+
+    (makefile "Data:iODBCGui/Makefile")
+
+    (make "Make -f %makefile -%target")
+
+    (target "")
+)
