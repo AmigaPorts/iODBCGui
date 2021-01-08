@@ -9,7 +9,7 @@ CC = ppc-amigaos-gcc
 
 #DEBUG = -gstabs -DDEBUG
 CFLAGS = -O3 -mstrict-align -ffast-math $(DEBUG) -I. -Iinclude -Wall -DCATCOMP_NUMBERS -DCATCOMP_STRINGS
-LDFLAGS = -use-dynld -Wl,-export-dynamic -Wl,--no-undefined
+LDFLAGS = -athread=native -use-dynld -Wl,-export-dynamic -Wl,--no-undefined
 LIBS = -Llib -liodbc -liodbcinst -ldl -lpthread -lunix -lauto -lraauto 
 EXENAME = iODBC
 
